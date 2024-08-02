@@ -1,0 +1,74 @@
+
+/* App.css */
+
+/* Container for the entire application */
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Card for each learner */
+.learner-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.learner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Learner's name */
+.learner-name {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Learner's bio */
+.learner-bio {
+  font-size: 1em;
+  margin-bottom: 20px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Container for scores */
+.scores-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Individual score item */
+.score-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.score-item:last-child {
+  border-bottom: none;
+}
+
+/* Score date */
+.score-date {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Score value */
+.score-value {
+  color: #007BFF;
+  font-weight: bold;
+}
